@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": "VerifiableCredential",
+  "id": "https://eiteldata.eu/.well-known/lrn.json",
+  "issuer": "did:web:compliance.eiteldata.com",
+  "issuanceDate": "2026-04-13T14:27:15.085695Z",
+  "credentialSubject": {
+    "id": "https://eiteldata.eu/.well-known/lrn.json",
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:legalRegistrationNumber",
+    "gx:vatID": "ESQ2818029G",
+    "gx:vatID-countryCode": "ES"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-04-13T14:27:15.085695Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:compliance.eiteldata.com",
+    "jws": "eyJhbGciOiAiRWREU0EiLCAia2lkIjogImRpZDp3ZWI6Y29tcGxpYW5jZS5laXRlbGRhdGEuY29tI2tleS0xIn0..X9TQhU61CZ5d7npNhL2Nn2GshOCw4ftUgHivV5Fz40qhFH6viNcpqx_j_yrH4LY4IB9W0n8PpVsktEJUOlbaAg"
+  }
+}
