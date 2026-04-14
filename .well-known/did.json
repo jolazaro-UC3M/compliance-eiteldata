@@ -6,6 +6,17 @@
   "id": "did:web:compliance.eiteldata.eu",
   "verificationMethod": [
     {
+      "id": "did:web:compliance.eiteldata.eu#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:compliance.eiteldata.eu",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "kty": "OKP",
+        "x": "q2EH8Q2KuRKY-xoQAAHQhx77n4LSdyKGbrmWGtPNxaE",
+        "use": "sig"
+      }
+    },
+    {
       "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
       "id": "did:web:compliance.eiteldata.eu#X509-JWK2020",
       "type": "JsonWebKey2020",
@@ -20,6 +31,7 @@
     }
   ],
   "assertionMethod": [
+    "did:web:compliance.eiteldata.eu#key-1",
     "did:web:compliance.eiteldata.eu#X509-JWK2020"
   ]
 }
