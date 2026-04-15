@@ -1,0 +1,97 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "https://schema.org/version/latest/schemaorg-current-https.jsonld"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+    "issuer": "did:web:compliance.eiteldata.eu",
+    "issuanceDate": "2026-04-15T13:21:39.452Z",
+    "credentialSubject": {
+        "type": "gx:LegalParticipant",
+        "gx:legalName": "Universidad Carlos III de Madrid",
+        "gx:legalRegistrationNumber": {
+        "id": "https://compliance.eiteldata.eu/.well-known/lrn.json"
+        },
+        "gx:headquarterAddress": {
+        "gx:streetAddress": "Av. de la Universidad, 30",
+        "gx:postalCode": "28911",
+        "gx:locality": "Leganés",
+        "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx:legalAddress": {
+        "gx:streetAddress": "Av. de la Universidad, 30",
+        "gx:postalCode": "28911",
+        "gx:locality": "Leganés",
+        "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx-terms-and-conditions:gaiaxTermsAndConditions": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+        "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+        "schema:description": "This field demonstrates the possibility of using additional ontologies to add fields that are not explicitly included in the Trust Framework specification."
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-15T13:21:42.842Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ulhhmkQZH3CSdRzF-ZDrs13k8f2aI4Ww2ieC0ocXUwCu9m2cJCbUusBPn6l1Y_fCya4eUsMm9mmkVArhJVp04gesoLbvy1pLlE995iNOeIdHDVX6aUfRWaqw9hoFoHPGCFXX-V7cZeeijEJ7wYy8uf7iEO0nn4WHAoNU7K9xKgS6jFi1-FroFY27B825zm22y2ITe1OMmY8f6khao4j3_nBJ2iZgJRwlXFDVowxkpODP2mOY5TwmpBIUjimXzI7mutJNM5dGbcnW1-nIqIUoQOiidHUvMHMDLPKx3b3QXRWctCYIAGPDV7Ou6_CVQUjzzMyJXQEQMKuIEYVqay0-8w"
+        }
+    },
+    {
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": "VerifiableCredential",
+    "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+    "issuer": "did:web:compliance.eiteldata.eu",
+    "issuanceDate": "2026-04-15T13:21:42.887Z",
+    "credentialSubject": {
+        "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "gx:vatID": "ESQ2818029G",
+        "gx:vatID-countryCode": "ES"
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-15T13:21:42.893Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aZrjXEztd6Oajz38OnOfVFKqiMSWk9OCDWSpYZvT04hJCAfpEtWsyESfWOHddAaGYHdp3hRhyW6P6TelsiUe0msTaUmxCU9vekbWjjfoprGhk41F1_UhGq0J7pA_rHkTbmxrTBCI8yvsbonG5YvbnBXYxUnAYkS_LPojoKAZAc-mdlsarAw5tR1eRb2nDTr143_KQhmzrNLZa-KZ698ldGVbiaOEY73FiJ8QhWVLFJvCVzAQzgzDlFbnrKXVwqk3JuKCZq1aoopsE8p9Vr5IE7WHDPl48fdHp-cLBxeQJcGVTSI_BUlJGn6IVTBZzGFIDx50oM7njOeOpBleswOGUw"
+        }
+    },
+    {
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+     ],
+    "type": "VerifiableCredential",
+    "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+    "issuer": "did:web:compliance.eiteldata.eu",
+    "issuanceDate": "2026-04-15T13:21:42.887Z",
+    "credentialSubject": {
+        "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "gx:vatID": "ESQ2818029G",
+        "gx:vatID-countryCode": "ES"
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-15T13:21:42.893Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aZrjXEztd6Oajz38OnOfVFKqiMSWk9OCDWSpYZvT04hJCAfpEtWsyESfWOHddAaGYHdp3hRhyW6P6TelsiUe0msTaUmxCU9vekbWjjfoprGhk41F1_UhGq0J7pA_rHkTbmxrTBCI8yvsbonG5YvbnBXYxUnAYkS_LPojoKAZAc-mdlsarAw5tR1eRb2nDTr143_KQhmzrNLZa-KZ698ldGVbiaOEY73FiJ8QhWVLFJvCVzAQzgzDlFbnrKXVwqk3JuKCZq1aoopsE8p9Vr5IE7WHDPl48fdHp-cLBxeQJcGVTSI_BUlJGn6IVTBZzGFIDx50oM7njOeOpBleswOGUw"
+     }
+    }
+  ]
+}
