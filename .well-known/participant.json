@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "https://schema.org/version/latest/schemaorg-current-https.jsonld"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+  "issuer": "did:web:compliance.eiteldata.eu",
+  "issuanceDate": "2026-04-15T07:47:26.435Z",
+  "credentialSubject": {
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "Universidad Carlos III de Madrid",
+    "gx:legalRegistrationNumber": {
+      "id": "https://compliance.eiteldata.eu/.well-known/lrn.json"
+    },
+    "gx:headquarterAddress": {
+      "gx:streetAddress": "Av. de la Universidad, 30",
+      "gx:postalCode": "28911",
+      "gx:locality": "Leganés",
+      "gx:countrySubdivisionCode": "ES-MD"
+    },
+    "gx:legalAddress": {
+      "gx:streetAddress": "Av. de la Universidad, 30",
+      "gx:postalCode": "28911",
+      "gx:locality": "Leganés",
+      "gx:countrySubdivisionCode": "ES-MD"
+    },
+    "gx-terms-and-conditions:gaiaxTermsAndConditions": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+    "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+    "schema:description": "This field demonstrates the possibility of using additional ontologies to add fields that are not explicitly included in the Trust Framework specification."
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-04-15T07:47:31.607Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:compliance.eiteldata.eu",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TSDhkZiIS5EGzwoIadYq_eh2FAKoi_nrczUh4y773Ff8vF1JDOLk-YulPvA2DOBV3HY6de-eyPFo17bvAOJwQQNdfLJOZtewtmiPYdDoJpHoytzZVD_5ubCdDWEQQkwmozgbPBd9VTleUKRIp9TJjeDA9JQ2KbVHKSmFlV_qEEPzOP2d7K82Ujq9FfCeYNHKRwcZeqlzXu8riXlJdl8z-RfmUTAAQCx45xx19qQ_eqYaf2xJjS2C0vqoPdVIr3b74A0T88P8Xlc-dASlOPnA81eCLPs3I-dASTo2ZiRVikwx6N1gLE2N_X9TdFwrhsfS6VnVXkICdAKZ-m0p1tMKWw"
+  }
+}
