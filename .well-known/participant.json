@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "https://schema.org/version/latest/schemaorg-current-https.jsonld"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+  "issuer": "did:web:compliance.eiteldata.eu",
+  "issuanceDate": "2026-04-16T08:18:15.435Z",
+  "credentialSubject": {
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "Universidad Carlos III de Madrid",
+    "gx:legalRegistrationNumber": {
+      "id": "https://compliance.eiteldata.eu/.well-known/lrn.json"
+    },
+    "gx:headquarterAddress": {
+      "gx:streetAddress": "Av. de la Universidad, 30",
+      "gx:postalCode": "28911",
+      "gx:locality": "Leganés",
+      "gx:countrySubdivisionCode": "ES-MD"
+    },
+    "gx:legalAddress": {
+      "gx:streetAddress": "Av. de la Universidad, 30",
+      "gx:postalCode": "28911",
+      "gx:locality": "Leganés",
+      "gx:countrySubdivisionCode": "ES-MD"
+    },
+    "gx-terms-and-conditions:gaiaxTermsAndConditions": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+    "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+    "schema:description": "This field demonstrates the possibility of using additional ontologies to add fields that are not explicitly included in the Trust Framework specification."
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-04-16T08:18:17.050Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:compliance.eiteldata.eu",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EQExugPtggD6Kszxur8ME_QKeY5VEjK58gAXsJwXkVViUPaVzz8GGHcv_SfByuo5s8UJexYNxgjIxjje_mVYAgvljQ5HCsXMyJlVDcoMAXlK7bOQawjeWi5u4D8qlxZOIlLOxkkNYqEP1DRDZ87-1KYSFbYeFSFM7HtbC5ewbGzF-vO1yYR3qTT7msHvky6SG98PjRvgeCXZ-u6gzQ85z3FBJ_aMEYY-BpxqV5vIgdo8HqM5NDvmL0dQgubsdeB9R5egzDnrSfamfRO6ohAcKvyzsL_cjk2qAAe2VayJTpMyk2AyMgwUsF3UywT4E2ZrJPzSCG-zrqlPY0hayKqYJg"
+  }
+}
