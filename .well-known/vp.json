@@ -1,0 +1,258 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "https://schema.org/version/latest/schemaorg-current-https.jsonld"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.eiteldata.eu/.well-known/participantf.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-20T09:45:24.445Z",
+      "credentialSubject": {
+        "type": "gx:LegalParticipant",
+        "gx:legalName": "Ayuntamiento de Fuenlabrada",
+        "gx:legalRegistrationNumber": {
+          "id": "https://compliance.eiteldata.eu/.well-known/lrnf.json"
+        },
+        "gx:headquarterAddress": {
+          "gx:streetAddress": "Plaza de la Constitución, 1",
+          "gx:postalCode": "28943",
+          "gx:locality": "Fuenlabrada",
+          "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx:legalAddress": {
+          "gx:streetAddress": "Plaza de la Constitución, 1",
+          "gx:postalCode": "28943",
+          "gx:locality": "Fuenlabrada",
+          "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx-terms-and-conditions:gaiaxTermsAndConditions": "https://compliance.eiteldata.eu/.well-known/tsandcsf.json",
+        "id": "https://compliance.eiteldata.eu/.well-known/participantf.json",
+        "schema:description": "This field demonstrates the possibility of using additional ontologies to add fields that are not explicitly included in the Trust Framework specification."
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:26.220Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rMe2wlP6krvxIuFsDjdXkqgzTeo3OwWFHgxexSOkGqLq_CuOnQbE_9mtowSRTXoSg-zrCFN5r8pDVJDV_43TIpmzjB8h-jh7UU3g1Yjj__1oIZikBxOohx2EBtcXGaKWVe3K6zxM25UeNYtM1ivo82z96mEfADXu3iyetx9v-UPdn-SpWQQQZJwO2vV3K0X1HZgRsfIzj9LQJex36B6m4V3Smf775NY7NaU7CxsalBAsKcvmW_oHvmNX6W6tUB8mI10Xd7lhZa_mlegXDh4MMC2S0dkeokZCodmkH_drFDkcWwIyQJuVdw_dEiTvkTYhly94CrDQjuBmgqYba1YknA"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://compliance.eiteldata.eu/.well-known/lrnf.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-20T09:45:26.243Z",
+      "credentialSubject": {
+        "id": "https://compliance.eiteldata.eu/.well-known/lrnf.json",
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "gx:vatID": "ESP2805800F",
+        "gx:vatID-countryCode": "ES"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:26.247Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PnxkstLdJaLUkkr3QOngce6lLHtQRtDcTu9hb1aw21rJMMGiLuaUL0YAkBSJdh6xx6erJam0wKweCW2N46y2UrypxipM-t6X_rVyryMVw2_gPqEJlPxrwPxMZ-yNSsAnnQkP5ULDXt3q40fJ7mDkuNIIuWbvDF5UT9FZQUNdLu2Nn22kK3dMNHBdhiheecAZM9zMLmun4Q3LyEKYZscf6UXcxp9zvpoGu0t64IswmKcnf4T9AkWEsqCiYd0qX31Bdbuaf5JNTBwiSeG2J9LFTLGeWWmx2Trcls-PzFgnJjUAS_xaLuu6Lj5qmCndbu5b1Wn84A9qVUb6qR7ai66_kA"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://compliance.eiteldata.eu/.well-known/tsandcsf.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-20T09:45:26.264Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://compliance.eiteldata.eu/.well-known/tsandcsf.json",
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD)."
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:26.267Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jQ-sUH0PhO2tO_oakIxNYeT6UzLsZNPX_8YK0FC5MKuZ2ntBBqfC9RXibPh9RYo-FjIv2ejR9AWLdvjngiLLSzsuYWiocLJTGx9mU2pQM06uZmEri7xnttMnM4TuFBbnd47a9ar1E3lrmt9CS2Dm8sZ47n-p_cHdxEWhoCv49LHaDh0t-cTsQvKUxARJVycWIDUC9vmqYeseQ6O_NlP89ShIm5UCNThOMZvKMyglvqFw3qYi7EEPMT1oFajYnCJHraruhw7YU6z1slQLt0_I9y02aWyqpzIHjaAYC26zuPH0tjPlcreuxr99rcGoSvJ-Zq2h6AmQEPj5siZX3vip8Q"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://compliance.eiteldata.eu/.well-known/serviceofferingf.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-20T09:45:27.739Z",
+      "credentialSubject": {
+        "id": "https://compliance.eiteldata.eu/.well-known/serviceofferingf.json",
+        "type": "gx:ServiceOffering",
+        "gx:providedBy": {
+          "id": "https://compliance.eiteldata.eu/.well-known/participantf.json"
+        },
+        "gx:policy": "",
+        "gx:termsAndConditions": {
+          "gx:URL": "https://compliance.eiteldata.eu/.well-known/tsandcsf.json",
+          "gx:hash": "21123675e108e8d71090c921565ea799fd6a4f6d411eb631e1befffcebd8a5ce"
+        },
+        "gx:dataAccountExport": {
+          "gx:requestType": "API",
+          "gx:accessType": "digital",
+          "gx:formatType": "application/json"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:27.744Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gNqTtnuVoNO7cNbNlaL4GwfLZMqEmFvQNtOjnACfN-xPW9L6HyueegAwsRLlWUfSVlkMQDoUPea80epFBLccUNUbDipQ4j4ABKsXlalkanN7fIBwWuXQPf0TofdZpyeIT4-XEiKLUjZMBYAKzEVhOP9dOnf5Q9mmq-SyD4MEmUWM7BkKDoS83LZperbi0MhVheUzZTIsie-VjFChFy5dgC3HynY8rCOMmzzxC1oIm6_ena9Y4xzVoEkTWvrFECRlcxI4zq1o78CHOjS1LWujc833R4I3wcxUPvV0jVyrVty8TSJvjbC2Qfs9hS_9EbYjcsp_dEsXIcgjcWox4IjSjg"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.lab.gaia-x.eu/v1-staging/credential-offers/27e059be-972a-4d8e-b592-6277773a0534",
+      "issuer": "did:web:compliance.lab.gaia-x.eu:v1-staging",
+      "issuanceDate": "2026-04-20T09:45:41.230Z",
+      "expirationDate": "2026-07-19T09:45:41.230Z",
+      "credentialSubject": [
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/participantf.json",
+          "gx:integrity": "sha256-c808cd4a62cec0a77f3c07a030ec2179062dacfe09edbbd1db16ea80fc395357",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:LegalParticipant"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/lrnf.json",
+          "gx:integrity": "sha256-6d1b39b8a918c9e9c8a57d665c0d92c43e43dec2846d775a27497546ba8cc9d1",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:legalRegistrationNumber"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/tsandcsf.json",
+          "gx:integrity": "sha256-a6acaa8d0989169877105bf4e5b2a1aa5c94d87bb101c3ed97a21d5c2a513be1",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:GaiaXTermsAndConditions"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/serviceofferingf.json",
+          "gx:integrity": "sha256-90d53c85df789fc6d6566acb8aec931d92ad325bd664dc3ebe743e2589e41b87",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:ServiceOffering"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:41.246Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.lab.gaia-x.eu:v1-staging#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F0NBHpRb0JioidsVbhij1qnvOJnLIelxxM9LhHDQqMyZGk551G7FkY_YAYoy2ldakiOK1m4HI0SjRWpYAwlWy4sqLVx7e4xXjNw-Uwe95R2IgAHVfqNLbr0DnElfs6KxFwJ70rG328qv1LpZ79gPAeGR0C-Lz3vp77nNyLRpFkud7IltVjRGJCDbv_702EgQxQXEmb6ut-0RQ6lfh6tAbEjEGceLYXAuZ0F_LNBzUV7Y4CU03w4Ka7Pvw4L5MACgHb8hZEE-xaOs8x-hDQJmGkPTwoqWy7gowZ2EQrLEvmGrJpdQgWOEse6joCt-dvFfgOagxXuND3gAMfebuxudww"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://compliance.eiteldata.eu/.well-known/vr-https-petstore3-swagger-io-api-v3-openapi-json.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-20T09:45:26.287Z",
+      "credentialSubject": {
+        "id": "https://compliance.eiteldata.eu/.well-known/vr-https-petstore3-swagger-io-api-v3-openapi-json.json",
+        "type": "gx:VirtualResource",
+        "gx:description": "HTTP API that is formally described using the OpenAPI schema at https://petstore3.swagger.io/api/v3/openapi.json",
+        "gx:copyrightOwnedBy": [
+          "https://compliance.eiteldata.eu/.well-known/participantf.json"
+        ],
+        "gx:license": [
+          "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt"
+        ],
+        "gx:policy": [
+          ""
+        ]
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:27.191Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qgmtOIlQBq-HUtvL89A3eWCNohCNFTcetJP8nTyY61ejBWzXq_tHTVZqq8F-J2mqeR4TkO990sBd4vPQVSxbnNxAYKZSBD6GedF9rrIdoEpY0l3XqRLSH3VeLqp-4BQfkXvZgzEGKo8xYthT8VaIgKaWjvHExOPr2IYO5K28NLw_33LV8jUfCHdX2uzwKLXSMSqHJl9xIoqlfKVB206pbx5Sh_2iLpHl-w-UyCWIP4la0u-k9xMYaavIk7LF1lkyiILAqmYh4FwwuRin3itrtkKVqcKjYFKCQE0UTMioZ9JDZblZASjZEhABaSTEuSWfKa6i0bmKYPlCjVUGvB5WoQ"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "https://www.w3.org/ns/dcat.jsonld"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://compliance.eiteldata.eu/.well-known/ivr-https-petstore3-swagger-io-api-v3-openapi-json.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-20T09:45:26.287Z",
+      "credentialSubject": {
+        "id": "https://compliance.eiteldata.eu/.well-known/ivr-https-petstore3-swagger-io-api-v3-openapi-json.json",
+        "type": [
+          "gx:InstantiatedVirtualResource",
+          "dcat:DataService"
+        ],
+        "gx:maintainedBy": [
+          "https://compliance.eiteldata.eu/.well-known/participantf.json"
+        ],
+        "gx:hostedOn": "https://compliance.eiteldata.eu/.well-known/vr-https-petstore3-swagger-io-api-v3-openapi-json.json",
+        "gx:instanceOf": "https://compliance.eiteldata.eu/.well-known/vr-https-petstore3-swagger-io-api-v3-openapi-json.json",
+        "gx:tenantOwnedBy": [
+          "https://compliance.eiteldata.eu/.well-known/participantf.json"
+        ],
+        "gx:serviceAccessPoint": [
+          "https://petstore3.swagger.io/api/v3/openapi.json"
+        ],
+        "dcat:endpointDescription": "https://petstore3.swagger.io/api/v3/openapi.json",
+        "dcat:endpointURL": "/api/v3"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-20T09:45:27.698Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kWIWtAVmqxoM6s5_A5JmQ1y8pBs3-5wYZSqvYWBh6HHECWhNktZYBZhrfps1kTPf1gS63qLRNCOeXBA-swlgV_QZMrct71OoOrHrQwQ8VtZrGpb4gSIdtZM1F0FOzo0PXXFc0pkce668mDsgHMVA2djyaVfpl5wxSJgRvjyM2gQRs9NsbO7MLKnNxcT60y8ok98ETti8FBkaGFcZP9E_eqM1zv1EkCu7ueP3SiyxdT0qiMtnJsWSJuqJhynghcuenMU9M6nte101quhAOzfE8NpVBS_GupSfb7oWzcsZQ2K2xIeHuCMCucy1LqKQVgI7LDnOJe3awjDIct8NyfrutQ"
+      }
+    }
+  ]
+}
