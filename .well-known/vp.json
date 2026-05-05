@@ -1,0 +1,106 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "https://schema.org/version/latest/schemaorg-current-https.jsonld"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-24T09:30:26.118Z",
+      "credentialSubject": {
+        "type": "gx:LegalParticipant",
+        "gx:legalName": "Universidad Carlos III de Madrid",
+        "gx:legalRegistrationNumber": {
+          "id": "https://compliance.eiteldata.eu/.well-known/lrn.json"
+        },
+        "gx:headquarterAddress": {
+          "gx:streetAddress": "Av. de la Universidad, 30",
+          "gx:postalCode": "28911",
+          "gx:locality": "Leganés",
+          "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx:legalAddress": {
+          "gx:streetAddress": "Av. de la Universidad, 30",
+          "gx:postalCode": "28911",
+          "gx:locality": "Leganés",
+          "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx-terms-and-conditions:gaiaxTermsAndConditions": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+        "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+        "schema:description": "This field demonstrates the possibility of using additional ontologies to add fields that are not explicitly included in the Trust Framework specification."
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-24T09:30:27.413Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cwa8OJ7V5WI3Ye7RoY0Gpq3u0b5Sor5UO6L4YWwWGo2Swx1c-5M5VkLbhBbPnWtzO9YtvoBYzJlgLI60Dii7ljhQz17DYvEu1uBg47OKGXQcznc_PWOnJg9TA8glc2z2LjVvU_HFNJJ-fuF85Eiej8omp-20Zj_mOkBAqnjzS8iRlblVW7NxAC2LcknJE6B5nhTjeXm-FE5ILwsaQ6uAjMbk6NvQ5sl1NslYppBbG_TukK6pio5Tm6WYl-08vgHTUbbYxlxP2H2pJonv-1HYwtIjmulih3rssIx2iPIb1zZ-_4nkMgoUhM9P3vFpa9NwU9YL-WJV80UfOqDJrOxWLQ"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "did:web:example.com:legalRegistrationNumber1",
+      "issuer": "did:web:registration.lab.gaia-x.eu:v1-staging",
+      "issuanceDate": "2026-05-05T08:48:24.826Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://uc3m.es#lrn",
+        "gx:vatID": "ESQ2818029G",
+        "gx:vatID-countryCode": "ES"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+          "gx:executionDate": "2026-05-05T08:48:24.826Z",
+          "gx:evidenceOf": "gx:vatID"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-05-05T08:48:24.843Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1-staging#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XHO-0J3oMjPryTGfsZiajnz7nkRHJ6WOxd89CX08jWafpxzxQgz_n-1J85VlwiODqhYiAS-1FVyd7gE5sAVyiqkfZ_LAh8YjEFpXSs1WrrLwr8VSVEJ82u1TuBqQ6GyZTID71vFa6JidrgmO_5WTzYrix9T9mcyF_9H9kAlPvLAReyq63Ex2US5gTBfaJN5wmWdH2UZ0DlV1nS97a8m_3fUYER9gbOBOGe7yoP2wyA2jx6hEPvdBwWfan5GisfGRjSHOBpmiL3P_VllW6du0lWhSDb1medJthcPwPRhGW3HCab0mynglgd1mkNHDHLF1QEWKmdjVPOPjAy7QDhTL3g"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-04-24T09:30:27.468Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD)."
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-04-24T09:30:27.471Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LL-_kmFxQxQo7sEGqRxHWST79RUK1HzGGUL3wpMr5v7XJrZnWVCtdwPLhRMlBrY278vAkUyLDOqtNyFTmxctuKRWsTpgxbk434YWpQlAecxf46a8iQTOxdD32FXbDeR-Ay0cq5WTRQuTC_tUrNi0T4Mft5O1rx_LDfhXc5qj566N-lnEVrK8tsg1K6f1Gerym10_REntheMqDRNItiimrsyE2V5xDogYZK1fXyZQ9BD_2k4R7dM5IDHzQnoT0wggK0DEM7TXBRcZoVfjmyvs_NFDR3P3XueWKbQxlllGmhWrOxm1yE8nWOLM4Vk4ELlnTjwgKJueMKGTUwShweJCTQ"
+      }
+    }
+  ]
+}
