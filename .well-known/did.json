@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:compliance.eiteldata.eu",
+  "verificationMethod": [
+    {
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
+      "id": "did:web:compliance.eiteldata.eu",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "zxdPgjvXESPDfIjRvUtFappgQNt9yy-updfQeFCs8YlClnmies32Jg-atVPLkjIo8chF2NWXGTqST-u2Uuor84ZKA7naYIy8kmp4RdlmpsL6SSw37gm5suqn9fOj3HW00JqCJFvAQ5ROgBWnchbf7KlWEoJJMSCSobLQDBVMv_mH4TgOXuO_sqC466uydL_XYaOhayh8qC0G1xak-3fSQvUNq4jtvDsTZkPRRl1nn-kKFwVq4whkLViI8rtrmEuLdh2cQkDUOMbdtbVbKrWAjB8aS-i6e6h8X4npyJXB5r6DWWxS9_DF2l6sliTQ5umTcrV8X-ocgLz2mviW7Ch7Iw",
+        "e": "AQAB",
+        "alg": "PS256",
+        "x5u": "https://compliance.eiteldata.eu/.well-known/x5u.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:compliance.eiteldata.eu#X509-JWK2020"
+  ]
+}
