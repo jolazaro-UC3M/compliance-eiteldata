@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+  "issuer": "did:web:compliance.eiteldata.eu",
+  "issuanceDate": "2026-05-07T09:12:07.478Z",
+  "credentialSubject": {
+    "id": "https://www.uc3m.es",
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "Universidad Carlos III de Madrid",
+    "gx:legalRegistrationNumber": {
+      "id": "https://www.uc3m.es#lrn"
+    },
+    "gx:headquarterAddress": {
+      "gx:streetAddress": "Av. de la Universidad, 30",
+      "gx:postalCode": "28911",
+      "gx:locality": "Leganés",
+      "gx:countrySubdivisionCode": "ES-MD"
+    },
+    "gx:legalAddress": {
+      "gx:streetAddress": "Av. de la Universidad, 30",
+      "gx:postalCode": "28911",
+      "gx:locality": "Leganés",
+      "gx:countrySubdivisionCode": "ES-MD"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-05-07T09:12:08.376Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:compliance.eiteldata.eu",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vk_LJUsBVG6pirqZMKgCiwyruSzLtLcK0l8FQg8Ou3NU2D4UlJl1s8pjYvMj76rK519Qjw7Ob1uIJ4UFTdviHIMHjzxA8r3FIxMYmDiFTM_UaVMtRNnGYXFHtDpEU343i5nnPVfscwFUM699f-mmA9hBOPvBRS4Mp99D4rsvyozPMIi0KyO9V_eQx833k7VKWJ9Iz2CP9PJkbgmMFQnoLctVgw5B73UQ_v2jgsA6EWEa9Q9eqk8i05KCJQ0_RbMFNMIu_lHKP6GZRVhZTmZGsjB7E93TEgFWURc36N39fv3Ud0bPbqFPkF2CckFv114sAcyl_6QcoaPfE1PVHCyZpQ"
+  }
+}

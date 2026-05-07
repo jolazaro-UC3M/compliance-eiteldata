@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+  "issuer": "did:web:registration.lab.gaia-x.eu:v1-staging",
+  "issuanceDate": "2026-05-06T09:48:15.242Z",
+  "credentialSubject": {
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:legalRegistrationNumber",
+    "id": "https://www.uc3m.es#lrn",
+    "gx:vatID": "ESQ2818029G",
+    "gx:vatID-countryCode": "ES"
+  },
+  "evidence": [
+    {
+      "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+      "gx:executionDate": "2026-05-06T09:48:15.242Z",
+      "gx:evidenceOf": "gx:vatID"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-05-06T09:48:15.258Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1-staging#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LUB7Y2Iptork2jHSPF6APK3WN7TuMXT2bEWzzW-zsGpqfyYrr0KeWR7aXstfBnIfO1Z3FNXrnTkFBeFyeSfZmnEbG0AG27r5k0gvQY-wB5nJm78-PEgLoyiQw0gC4jk6QEjpyTph_cYAov7Zade796wxBGMDk0Nj11wwHifVBxVxqMexHeIUjhL8PQ7qFYzBvrpKEYKDGVeBmTMYMaa5LkAPRsNu21MAgwmLYin9YMWiWLdqfuX0MsFik-woouJ3oFPPWZGpVM3NKGE7QVjFLSAvQAoK_2P7k6BPgwIDOV-RipjmcLTGnsr9eHu_X2WWBMrVJNCG71IPOML1WcWL_w"
+  }
+}
