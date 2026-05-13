@@ -1,0 +1,152 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-05-12T10:50:44.880Z",
+      "credentialSubject": {
+        "id": "https://www.ayto-fuenlabrada.es/",
+        "type": "gx:LegalParticipant",
+        "gx:legalName": "Ayuntamiento de Fuenlabrada",
+        "gx:legalRegistrationNumber": {
+          "id": "https://www.ayto-fuenlabrada.es/#lrn"
+        },
+        "gx:headquarterAddress": {
+          "gx:streetAddress": "Plaza de la Constitución, 1",
+          "gx:postalCode": "28943",
+          "gx:locality": "Fuenlabrada",
+          "gx:countrySubdivisionCode": "ES-MD"
+        },
+        "gx:legalAddress": {
+          "gx:streetAddress": "Plaza de la Constitución, 1",
+          "gx:postalCode": "28943",
+          "gx:locality": "Fuenlabrada",
+          "gx:countrySubdivisionCode": "ES-MD"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-05-12T10:50:45.856Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cGSqvQXmqhsWqSnVJxlMwAQzzWlS0XHEmJMBIqxy-sX21di-vjszS_fIxaORVO6hNR7GWV8yJ7rtOHu9IUEDS_SuMytmJPuZddJK0_bI4CarYWudeybBJxSLg3vQaTH77E09T31WlsKwQzNLtY0pDiSNJSJfjlG6zuv445bSupNz9ePcijMbERPCXZR0PgcxGSkx9w15hNy7hyEm8YhRHmRP4gDumtb6wuTcStxyOXi_TKVZ2k1IMcC_UUClU8HN_lb0-dvRc6ftt1nNK02d799xV3x5TVU61rKXufQUCCZ33-CjsVJ8uED1c8th053eU779-2MVCt9_MiGm56ShCw"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+      "issuer": "did:web:registration.lab.gaia-x.eu:v1-staging",
+      "issuanceDate": "2026-05-12T10:51:32.249Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://www.ayto-fuenlabrada.es/#lrn",
+        "gx:vatID": "ESP2805800F",
+        "gx:vatID-countryCode": "ES"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+          "gx:executionDate": "2026-05-12T10:51:32.249Z",
+          "gx:evidenceOf": "gx:vatID"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-05-12T10:51:32.274Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1-staging#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SkvqkMxBrgcG7aL_fWiJkwfdJLlTukPhBmPix5iyICASz1KkOrwlF03rMRZl1UACnb2gBMJ1maPHynEWMheeKROcDHvnoMtvPiYHHkGqVuVVy0uFP1bGrUdMsUGX4i4tUDoup3-nmiSmYn2k-kQTUfvAzRazaFgnVr4fOFfU81XV3FbJb77j5-C44vzNHbiJaELKi8KLbDk7OzKL3mD-4-d7i-Q-mukBWLT-klSlMvwQHe6rWmfCeYwuJbVx7t6Gc126sKv_BpKKzl5W62tVQC35n6cudcsAMSFpMO10W_HZ0qltBl6ECzrSW6eXK6pGBNjFNnendKyC8mnRt0fQzA"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+      "issuer": "did:web:compliance.eiteldata.eu",
+      "issuanceDate": "2026-05-12T10:50:45.882Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://www.ayto-fuenlabrada.es/#tandc",
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD)."
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-05-12T10:50:45.884Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.eiteldata.eu",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rw1aHeD7k8Fls_t6ZTTmp4fwsINLJqFoWXQr2x2zIESPWd8kR9u_HkXVZdbKtPd1KP_NoCd0csiR0VGzcnhW3BniHAjkqadj6FS4BkxFpv1hPca--QfudCqp81mg6ALl3OY5fUtPivUwaIC7cnGx7VY1hD3ZCeoLajZCopvWxyM8n86uIr5UofVpopTuckkYNfmem8Gsox0sJqiKVF44fpJSVznUMEpQXSX9B1V1KwrxGQvetDRG9d-DjGFjkz8zFSR_5g1P_Iv-KvRuneiMn_ds0y3DhNHiMCtu-xAysKme3WM1O79Uj84S09_trzyIGliDGEU5UyTH06VpnNKVpw"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://compliance.lab.gaia-x.eu/v1-staging/credential-offers/702908ee-9f9c-4de5-97df-364e5fa0265d",
+      "issuer": "did:web:compliance.lab.gaia-x.eu:v1-staging",
+      "issuanceDate": "2026-05-12T10:51:58.113Z",
+      "expirationDate": "2026-08-10T10:51:58.113Z",
+      "credentialSubject": [
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/participant.json",
+          "gx:integrity": "sha256-022e1614613ade15f5b22f946aa790ac7426584b4cdda6412c07bd28c250a3d6",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:LegalParticipant"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/lrn.json",
+          "gx:integrity": "sha256-708f2c2aa1822b227e5d2346fd6c2ebb8c07d8fcb4f8f1035a4991190fde3036",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:legalRegistrationNumber"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "https://compliance.eiteldata.eu/.well-known/tsandcs.json",
+          "gx:integrity": "sha256-ede8757a507c6643be17dfaef537aa77789e400748639b7100d2ad8c784ff959",
+          "gx:integrityNormalization": "RFC8785:JCS",
+          "gx:version": "22.10",
+          "gx:type": "gx:GaiaXTermsAndConditions"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2026-05-12T10:51:58.126Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:compliance.lab.gaia-x.eu:v1-staging#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O1fw5Lsv9FXkC_aE0j68wOKkzUNuDnLhovcYVWkdORrs6CvIpYH_sWEbyPbUD1cJRIuDTzMYayAc0oPfCOOJV-trQDU0SQVaf68jUT3I9o800Jj3askjOldJT6Otv7vDxGJYQN2pv_E1I-TgFF1uL2W4_qt0ML1zoOPCvupewI3Gn67VBWChVqt4h7bZ_3mvK6sxyXkikozdRzeTdX9yKeyK3yg2Ylp4bvijeNqP3F3VAsB_e4gop1rquEZjnpe3t8PM9uEfLA6a1eRJiTS84DE_YNXJvyyVBM-WYfaXS8Sjj-AKb1WpK9G3u7zIB7Dvh6bTYRu1nsvxbsMJ8cAY2Q"
+      }
+    }
+  ]
+}
